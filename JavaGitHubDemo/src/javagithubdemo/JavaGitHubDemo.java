@@ -17,10 +17,15 @@ public class JavaGitHubDemo {
      */
     public static void main(String[] args) {
         showMassage();
+        showBye();
     }
     
     public static void showMassage()
     {
         System.out.println("Hello GitHub!!!");
+    }
+    public static void showBye()
+    {
+        System.out.println("Bye GitHub!!!");
     }
 }
