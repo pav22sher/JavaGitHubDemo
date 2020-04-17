@@ -16,7 +16,11 @@ public class JavaGitHubDemo {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Hello GitHub!!!");
+        showMassage();
     }
     
+    public static void showMassage()
+    {
+        System.out.println("Hello GitHub!!!");
+    }
 }
